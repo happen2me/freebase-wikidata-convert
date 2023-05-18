@@ -19,7 +19,6 @@ from converter import EntityConverter
 entity_converter = EntityConverter("https://query.wikidata.org/sparql")
 entity_converter.get_wikidata_id("/m/0dgw9r")  # 'Q15978631'
 entity_converter.get_freebase_id("Q42")  # '/m/0282x'
-entity_converter.get_wikidata_id("/m/0282x")  # 'Q42'
 entity_converter.get_wikidata_id("/m/0dgw9r", limit=3)  # ['Q15978631', 'Q5']
 ```
 
