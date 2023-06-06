@@ -22,7 +22,7 @@ entity_converter.get_freebase_id("Q42")  # '/m/0282x'
 entity_converter.get_wikidata_id("/m/0dgw9r", limit=3)  # ['Q15978631', 'Q5']
 ```
 
-4818298 entities from [Wikidata5m](https://deepgraphlearning.github.io/project/wikidata5m) are mapped and saved as a dictionary at [fid2qid.pkl](./fid2qid.pkl).
+4818298 entities from [Wikidata5m](https://deepgraphlearning.github.io/project/wikidata5m) are mapped and saved as a dictionary at [fid2qid.pkl](artifacts/fid2qid.pkl).
 
 ## Properties
 
